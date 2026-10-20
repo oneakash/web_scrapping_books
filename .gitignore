@@ -1,0 +1,49 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Scrapy & Scrapyd artifacts
+.scrapy/
+build/
+dist/
+*.egg
+*.egg-info/
+eggs/
+logs/
+dbs/
+items/
+twistd.pid
+scrapyd.pid
+
+# Scraped output & databases (keep the folder, ignore the generated files)
+data/*.json
+data/*.csv
+data/*.xml
+data/*.db
+data/*.sqlite3
+*.db-journal
+
+# Environment & secrets
+.env
+.env.*
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/

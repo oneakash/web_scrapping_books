@@ -1,0 +1,5 @@
+Scrapy>=2.12.0
+scrapyd==1.4.3
+scrapyd-client==1.2.3
+itemadapter==0.9.0
+setuptools
