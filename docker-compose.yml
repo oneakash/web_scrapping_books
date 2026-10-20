@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  scrapyd:
+    build: .
+    container_name: books_scrapyd
+    ports:
+      - "6800:6800"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
